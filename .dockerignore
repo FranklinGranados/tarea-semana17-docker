@@ -1,0 +1,13 @@
+# 1. Dependencias (se reinstalan dentro del contenedor)
+node_modules
+
+# 2. Resultado de compilar (se vuelve a generar dentro del contenedor)
+.next
+
+# 3. Variables secretas
+.env*
+
+# 4. Historial de Git
+.git
+# 5. Archivos temporales y logs
+npm-debug.log*
